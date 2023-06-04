@@ -1,7 +1,7 @@
-# deepEDR
-Official repository for deepEDR (Deep Embedding based Drug Repositioning)
+# DR3E-Net  
+Official repository for DR3E-Net (Drug Repositioning network based on deep embedding, differentially expressed genes, and drug side effect)  
 
-# deepEDR depends on the study of deep embedding based drug repurposing
+# DR3E-Net depends on the study of deep embedding based drug repurposing
 - Since the following original paper did not include the source code, I took it upon myself to implement the suggested algorithm.  
 Drug Repurposing Using Deep Embeddings of Gene Expression Profiles  
 https://pubs.acs.org/doi/10.1021/acs.molpharmaceut.8b00284
