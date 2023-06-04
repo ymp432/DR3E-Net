@@ -6,7 +6,7 @@ Official repository for DR3E-Net (Drug Repositioning network based on deep embed
 Drug Repurposing Using Deep Embeddings of Gene Expression Profiles  
 https://pubs.acs.org/doi/10.1021/acs.molpharmaceut.8b00284
 
-# Additional parts for full deepEDR study will be added
+# Additional parts for full DR3E-Net study will be added
 - The study is ongoing (2023-06~)  
 
 # Environment
