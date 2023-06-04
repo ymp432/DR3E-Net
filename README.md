@@ -21,11 +21,11 @@ https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138
 2) Run `analysis_expression_for_train_and_inference.ipynb` with `MODE="train"` option  
 
 # Inference  
-1) Write model checkpoint file step number in `model.load_state_dict(torch.load("./trained_model/ckpt_00078.pt"))` from `/prj_root/run/test_model.py`
+1) Write the step number for model checkpoint file in `model.load_state_dict(torch.load("./trained_model/ckpt_00078.pt"))` from `/prj_root/run/test_model.py`
 2) Run `analysis_expression_for_train_and_inference.ipynb` with `MODE="inferencee"` option to create `./result_files/embedding_vectors.pkl`
 
 # Calculate cosine similarities with respect to specific drug  
-1) Run `calculate_similarities.ipynb` which depends on `./result_files/embedding_vectors.pkl` which is generated in inference step  
+1) Run `calculate_cosine_similarity_scores.ipynb` which depends on `./result_files/embedding_vectors.pkl` which is generated in the above inference step  
 
 # Loss decrease during 78 epochs  
 ![image](https://github.com/ymp432/deepEDR/assets/101608528/a83b7c9b-d166-4b0b-b82c-9207aa2c110e)
