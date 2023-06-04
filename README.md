@@ -31,12 +31,12 @@ https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138
 ![image](https://github.com/ymp432/deepEDR/assets/101608528/a83b7c9b-d166-4b0b-b82c-9207aa2c110e)
 
 # Some validation of my implementation  
-1) Left is result from my code and model and right is top10 drugs which are functionally similar to Metformin  
+1) Left is the result from my code and model, Right is top10 drugs which are functionally similar to Metformin, reported in referenced paper  
 ![image](https://github.com/ymp432/deepEDR/assets/101608528/90745cf8-1f31-4998-8a5a-f57a8402be4e)  
-Top10 drugs are included in top20 of my result list  
-The ranking and score can be different because data processing and model configuration are a bit different  
+Top10 drugs were all included in the top20 of my result list  
+The ranking and cosine similarity score can be different because data processing and model configuration were a bit different  
 
 2) I validated repurposed drug candidates for Methimazole (antithyroid agent) based on literatures.  
-The related evidences were found in some drugs.  
+The related evidences could be found in some repurposed cadidate drugs.  
 ![image](https://github.com/ymp432/deepEDR/assets/101608528/b7e04750-91b3-4a45-824e-6e80d7b9f89b)
 
