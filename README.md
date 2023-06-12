@@ -18,6 +18,8 @@ conda install pytorch==1.11.0 torchvision==0.12.0 torchaudio==0.11.0 cudatoolkit
 1) Download LINCS datasets  
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE92742  
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70138  
+I downloaded the following list of files and wrote them into jupyter notebook file `analysis_expression_for_train_and_inference.ipynb`  
+![image](https://github.com/ymp432/DR3E-Net/assets/101608528/a929d20c-e977-42f0-b38b-ccea5b243476)
 2) Run `analysis_expression_for_train_and_inference.ipynb` with `MODE="train"` option  
 
 # Inference  
