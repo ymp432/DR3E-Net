@@ -43,9 +43,9 @@ class AngularPenaltySMLoss(nn.Module):
             self.m = 1.35 if not m else m
         if loss_type == 'cosface':
             # Scaling factor will be used as trainable parameter in below code
-            # self.s = 1.5 if not s else s
+            self.s = 11.5 if not s else s
             # I adjusted these values
-            self.m = 0.2 if not m else m
+            # self.m = 0.2 if not m else m
 
         self.loss_type = loss_type
         self.in_features = in_features
@@ -95,10 +95,10 @@ class LincsDataset(Dataset):
 class PositiveParameter(nn.Module):
     def __init__(self):
         super(PositiveParameter, self).__init__()
-        self.parameter = nn.Parameter(torch.tensor(1.5))
+        self.parameter = nn.Parameter(torch.tensor(11.5))
     
     def forward(self):
-        return torch.abs(self.parameter)
+        return self.parameter
 
 # ================================================================================
 class DenseLayer(nn.Module):
