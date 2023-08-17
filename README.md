@@ -1,5 +1,5 @@
 # 1. DR3E-Net  
-Official repository for DR3E-Net (Drug Repositioning network based on deep embedding, differentially expressed genes, and drug side effect)  
+Official repository for DR3E-Net (**D**rug **R**epositioning network based on deep **E**mbedding, differentially **E**xpressed genes, and drug side **e**ffect)  
 
 # 2. DR3E-Net partially depends on the prior study of deep-embedding model for drug repurposing
 - Since the following original paper did not include the source code, I took it upon myself to implement the suggested algorithm.  
