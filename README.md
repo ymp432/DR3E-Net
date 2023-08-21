@@ -32,7 +32,7 @@ I downloaded the following list of files and wrote them into jupyter notebook fi
 ## 4.4. Find agonistic drugs against DEGs associated with the specific disease and merge them with the outcome from Step 1 (Step 2)  
 1) Run `find_drugs_acting_agnostic_to_DEG.ipynb`  
 
-## 4.5. Preprocess SIDER database and merge it with the outcome from Step 2 (Step 3)  
+## 4.5. Preprocess SIDER and SAEDR databases and merge them with the outcome from Step 2 (Step 3)  
 1) Run `create_SIDER_side_effect_data.ipynb`  
 
 # 5. Loss decrease during 78 epochs  
